@@ -51,7 +51,23 @@
   "funding": [
     {
       "type": "individual",
-      "url": "https://support.example.com"
+      "url": "https://support.matronator.cz"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/matronator"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.com/paypalme/matronator"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/bePatron?u=34136375"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/matronator"
     }
   ],
   "homepage": "https://github.com/matronator/view-sync#readme",
@@ -59,7 +75,7 @@
   "license": "MIT",
   "private": false,
   "sponsor": {
-    "url": "https://sponsor.example.com"
+    "url": "https://support.matronator.cz"
   },
   "type": "module",
   "types": "./dist/view-sync.d.ts",
