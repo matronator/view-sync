@@ -1,22 +1,22 @@
 {
-  "name": "package-name",
+  "name": "view-sync",
   "version": "0.1.0",
   "author": {
-    "name": "Author Name",
-    "email": "author@email.com",
-    "url": "https://website.com"
+    "name": "Matronator",
+    "email": "info@matronator.cz",
+    "url": "https://matronator.cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repository.git"
+    "url": "git+https://github.com/matronator/view-sync.git"
   },
-  "main": "./dist/package-name.cjs",
-  "module": "./dist/package-name.mjs",
+  "main": "./dist/view-sync.cjs",
+  "module": "./dist/view-sync.mjs",
   "exports": {
     ".": {
-      "require": "./dist/package-name.cjs",
-      "import": "./dist/package-name.mjs",
-      "types": "./dist/package-name.d.ts"
+      "require": "./dist/view-sync.cjs",
+      "import": "./dist/view-sync.mjs",
+      "types": "./dist/view-sync.d.ts"
     },
     "./dist/": {
       "import": "./dist/",
@@ -33,12 +33,13 @@
     "test:coverage": "vitest --coverage",
     "format": "prettier . --write",
     "upgrade": "upgradeps",
-    "release": "npm run build && np"
+    "prerelease": "npm run build",
+    "release": "np"
   },
   "bugs": {
-    "url": "https://github.com/username/repository/issues"
+    "url": "https://github.com/matronator/view-sync/issues"
   },
-  "description": "Package description.",
+  "description": "Lightweight alternative to Alpine.js' `x-model` attribute, that is CSP friendly (no 'unsafe-eval' needed).",
   "files": [
     "dist",
     "README.md",
@@ -53,7 +54,7 @@
       "url": "https://support.example.com"
     }
   ],
-  "homepage": "https://github.com/username/repository#readme",
+  "homepage": "https://github.com/matronator/view-sync#readme",
   "keywords": ["some", "keywords"],
   "license": "MIT",
   "private": false,
@@ -61,15 +62,15 @@
     "url": "https://sponsor.example.com"
   },
   "type": "module",
-  "types": "./dist/package-name.d.ts",
+  "types": "./dist/view-sync.d.ts",
   "typesVersions": {
     "*": {
       "*": [
-        "./dist/package-name.d.ts"
+        "./dist/view-sync.d.ts"
       ]
     }
   },
-  "typings": "./dist/package-name.d.ts",
+  "typings": "./dist/view-sync.d.ts",
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.5",
