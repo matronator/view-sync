@@ -1,6 +1,6 @@
 {
   "name": "view-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Matronator",
     "email": "info@matronator.cz",
@@ -73,7 +73,17 @@
     }
   ],
   "homepage": "https://github.com/matronator/view-sync#readme",
-  "keywords": ["view", "sync", "html5", "dom", "input sync", "alpine", "alpinejs", "alpine alternative", "x-model"],
+  "keywords": [
+    "view",
+    "sync",
+    "html5",
+    "dom",
+    "input sync",
+    "alpine",
+    "alpinejs",
+    "alpine alternative",
+    "x-model"
+  ],
   "license": "MIT",
   "private": false,
   "sponsor": {
