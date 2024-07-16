@@ -22,10 +22,27 @@ Lightweight alternative to Alpine.js' `x-model` attribute, that is CSP friendly 
 
 Install using your preferred package manager:
 
+#### NPM:
+
 ```
 npm i view-sync
+```
+
+#### Bun:
+
+```
 bun i view-sync
+```
+
+#### PNPM:
+
+```
 pnpm i view-sync
+```
+
+#### Yarn:
+
+```
 yarn add view-sync
 ```
 
@@ -35,7 +52,7 @@ And then import it like this:
 import { ViewSync } from 'view-sync';
 ```
 
-### With `<script>` tag
+### With a `<script>` tag
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/view-sync/dist/view-sync.iife.min.js"></script>
@@ -44,7 +61,7 @@ import { ViewSync } from 'view-sync';
 </script>
 ```
 
-### With `<script>` tag using `import`
+### With a `<script type="module">` tag using `import`
 
 ```html
 <script type="module">
