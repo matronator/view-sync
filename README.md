@@ -18,10 +18,38 @@ Lightweight alternative to Alpine.js' `x-model` attribute, that is CSP friendly 
 
 ## Installation
 
-With npm/yarn/pnpm/bun:
+### Using a package manager
+
+Install using your preferred package manager:
 
 ```
 npm i view-sync
+bun i view-sync
+pnpm i view-sync
+yarn add view-sync
+```
+
+And then import it like this:
+
+```js
+import { ViewSync } from 'view-sync';
+```
+
+### With `<script>` tag
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/view-sync/dist/view-sync.iife.min.js"></script>
+<script>
+    ViewSync.Init();
+</script>
+```
+
+### With `<script>` tag using `import`
+
+```html
+<script type="module">
+    import view-sync from https://cdn.jsdelivr.net/npm/view-sync/+esm
+</script>
 ```
 
 ## Usage
