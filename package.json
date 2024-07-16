@@ -11,13 +11,13 @@
     "url": "git+https://github.com/matronator/view-sync.git"
   },
   "main": "./dist/view-sync.cjs",
-  "browser": "./dist/view-sync.iife.js",
-  "sideEffects": false,
-  "module": "./dist/view-sync.mjs",
+  "jsdelivr": "./dist/view-sync.iife.js",
+  "type": "module",
+  "module": "./dist/view-sync.esm.js",
   "exports": {
     ".": {
       "require": "./dist/view-sync.cjs",
-      "import": "./dist/view-sync.mjs",
+      "import": "./dist/view-sync.esm.js",
       "types": "./dist/view-sync.d.ts"
     },
     "./dist/": {
@@ -89,7 +89,6 @@
   "sponsor": {
     "url": "https://support.matronator.cz"
   },
-  "type": "module",
   "types": "./dist/view-sync.d.ts",
   "typesVersions": {
     "*": {
