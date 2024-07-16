@@ -73,7 +73,7 @@
     }
   ],
   "homepage": "https://github.com/matronator/view-sync#readme",
-  "keywords": ["some", "keywords"],
+  "keywords": ["view", "sync", "html5", "dom", "input sync", "alpine", "alpinejs", "alpine alternative", "x-model"],
   "license": "MIT",
   "private": false,
   "sponsor": {
