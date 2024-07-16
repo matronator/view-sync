@@ -11,6 +11,8 @@
     "url": "git+https://github.com/matronator/view-sync.git"
   },
   "main": "./dist/view-sync.cjs",
+  "browser": "./dist/view-sync.iife.js",
+  "sideEffects": false,
   "module": "./dist/view-sync.mjs",
   "exports": {
     ".": {
@@ -89,7 +91,7 @@
   "typings": "./dist/view-sync.d.ts",
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
-    "@types/node": "^20.11.5",
+    "@types/node": "^20.14.10",
     "@vitest/coverage-v8": "^2.0.0",
     "dts-bundle-generator": "^9.2.4",
     "jsdom": "^24.1.0",
