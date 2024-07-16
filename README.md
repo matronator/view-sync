@@ -65,7 +65,7 @@ import { ViewSync } from 'view-sync';
 
 ```html
 <script type="module">
-    import view-sync from https://cdn.jsdelivr.net/npm/view-sync/+esm
+    import viewsync from https://cdn.jsdelivr.net/npm/view-sync/+esm
 </script>
 ```
 
