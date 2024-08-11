@@ -52,7 +52,9 @@ And then import it like this:
 import { ViewSync } from 'view-sync';
 ```
 
-### With a `<script>` tag
+### Using a CDN
+
+#### With a `<script>` tag
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/view-sync/dist/view-sync.iife.min.js"></script>
@@ -61,7 +63,7 @@ import { ViewSync } from 'view-sync';
 </script>
 ```
 
-### With a `<script type="module">` tag using `import`
+#### With a `<script type="module">` tag using `import`
 
 ```html
 <script type="module">
